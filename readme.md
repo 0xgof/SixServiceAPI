@@ -18,15 +18,16 @@ Java 11
 This step is necessary
 
 Please, set up a MySQL server and input appropiate properties for the database access in the application.properties file at /src/main/resources/application.properties. The following steps may help:
-    1.- Go to MySQL Workbench and create a new connection.
-    2.- Set up the Username
-    3.- Set up the Hostname
-    4.- Set up Port
-    5.- Now go to /src/main/resources/application.properties and set up the configuration there.
-        * url 
-        * username 
-        * password
-    6.- Go to MySQL Workbench and use the recently created connection and create a schema called sixservice.
+
+* 1.- Go to MySQL Workbench and create a new connection.
+* 2.- Set up the Username
+* 3.- Set up the Hostname
+* 4.- Set up Port
+* 5.- Now go to /src/main/resources/application.properties and set up the configuration there.
+    * url 
+    * username 
+    * password
+* 6.- Go to MySQL Workbench and use the recently created connection and create a schema called sixservice.
 
 ### Testing
 To test the API you need to open the repository in VSCode, go to the testing sidebar tool and scan for tests. After that, run all tests. If everything is set up properly the API just be launched, test will be ran, the database will automatically be updated and the reports will be generated. The reports can be found in JSON format at target\cucumber-reports.
