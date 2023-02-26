@@ -13,6 +13,7 @@ The database 'order' was renamed to 'market_orders' to avoid problems. This was 
 
 ### Requirements
 Java 11
+MySQL
 
 ### Add the database configuration at applicacitons.properties 
 This step is necessary
