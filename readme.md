@@ -12,8 +12,7 @@ The Database is generated automatically in the local MySQL server. No entries ne
 The database 'order' was renamed to 'market_orders' to avoid problems. This was done because the string 'order' is a reserved keyword in SQL.
 
 ### Requirements
-Java 11
-MySQL
+Java 11, MySQL
 
 ### Add the database configuration at applicacitons.properties 
 This step is necessary
