@@ -30,7 +30,9 @@ Please, set up a MySQL server and input appropiate properties for the database a
 * 6.- Go to MySQL Workbench and use the recently created connection and create a schema called sixservice.
 
 ### Testing
-To test the API you need to open the repository in VSCode, go to the testing sidebar tool and scan for tests. After that, run all tests. If everything is set up properly the API just be launched, test will be ran, the database will automatically be updated and the reports will be generated. The reports can be found in JSON format at target\cucumber-reports.
+To test the API you need to open the repository in VSCode, go to the testing suite sidebar tool and scan for tests. After that, run all tests. If everything is set up properly the API just be launched, test will be ran, the database will automatically be updated and the reports will be generated. The reports can be found in JSON format at target\cucumber-reports.
+
+Alternatively, you should be able to run the tests with the command "mvn test"
 
 #### Execution
 use mvn to execute the API
