@@ -1,4 +1,3 @@
-package com.example.sixservice;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -10,6 +9,6 @@ import org.junit.runner.RunWith;
         plugin = {"pretty",  "json:target/cucumber-reports/Cucumber.json"},
         glue = "com.example.sixservice"
 )
-public class CucumberTestTradingRunner  {
+public class CucumberTradingTest  {
 
 }
